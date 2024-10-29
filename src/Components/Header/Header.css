@@ -1,0 +1,32 @@
+*{
+    box-sizing: content-box;
+} 
+ .head-carousel{
+    width: 100%;
+    position: relative;
+    height: 90vh;
+    /* margin-top: 20px; */
+    padding-top: 60px;
+    animation: fadeIn 2s;
+ 
+} 
+.carousel-item{
+    object-fit: cover;
+    background-position: center;
+    height: 90vh;
+ width: auto;
+}  
+
+.carousel-indicators [data-bs-target]{
+border-radius: 100%;
+width: 10px;
+height: 10px;
+}
+
+.item-3{
+    width: 100%;
+    
+    scale: 1.5;
+    
+    
+} 
